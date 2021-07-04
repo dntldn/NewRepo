@@ -65,16 +65,25 @@
     <Filter Include="font">
       <UniqueIdentifier>{7a52a07e-e944-427a-921f-7a39b358696b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="FBX">
+      <UniqueIdentifier>{97aa79c2-e6a2-4463-a3ff-fc92f0e4fbb7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="App.cpp" />
     <ClCompile Include="DX12_exampleMain.cpp" />
     <ClCompile Include="pch.cpp" />
+    <ClCompile Include="CFBXLoader.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="App.h" />
     <ClInclude Include="DX12_exampleMain.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="CFBXLoader.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest" />
